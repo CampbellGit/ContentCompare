@@ -9,7 +9,7 @@ export default class Comparer extends Component {
     super(props)
 
     this.state = {
-      searchText: 'ethanol poison radium',
+      searchText: 'EDTA Aluminum chlorohydrate Potassium alum Ammonium lauryl sulfate Benzyl salicylate Dimethicone Guar hydroxypropyltrimonium chloride Polyquaternium-7 Sodium laureth sulfate Sodium lauryl sulfate  Zinc pyrithione PPG-15 stearyl ether Steareth-2 Amodimethicone BHT DMDM Hydantoin Phenoxyethano Benzophenone-3 BHA Butylparaben Propylparaben Benzophenone-4 benzophenone-5 Benzophenone-3 Benzylidene camphor Ethylhexyl methoxycinnamate Homosalate Titanium dioxide nano non nano  Octocrylene cinnamal cinnamyl alcohol citral coumarin eugenol farnesol geraniol hydroxycitronellal hydroxyisohexyl 3-cyclohexene carboxaldehyde HICC isoeugenol limonene DL linalool Benzyl salicylate Polyquaternium-7 Polyquaternium quaterniums PEG eth Acrylates copolymer Methylisothiazolinone Polyethylene Cocamidopropyl betaine Sodium lauryl sulfate Titanium dioxide Triclosan ',
       textToHighlight: `Placer ici la liste, le mot ou le texte à comparer avec la liste des ingrédients proscrits.`,
       activeIndex: -1,
       caseSensitive: false
